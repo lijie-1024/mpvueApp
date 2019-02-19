@@ -1,0 +1,14 @@
+{
+    "backgroundTextStyle": "dark",
+    "navigationBarTitleText": "首页",
+    "usingComponents": {
+      "weather": "plugin://weather/weather",
+      "calendar": "plugin://calendar/calendar",
+      "van-button": "/static/vant-weapp/button/index",
+      "van-icon": "/static/vant-weapp/icon/index",   
+      "van-popup": "/static/vant-weapp/popup/index",   
+      "van-toast": "/static/vant-weapp/toast/index",   
+      "van-field": "/static/vant-weapp/field/index",   
+      "van-datetime-picker": "/static/vant-weapp/datetime-picker/index"     
+    }
+}

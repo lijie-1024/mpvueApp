@@ -1,0 +1,39 @@
+.container{
+    background: #fafafa;
+  box-sizing: border-box;
+  height: 100%;
+  padding: 20rpx 10rpx;
+  font-size: 30rpx;
+  color: #455a64;
+}
+.line {
+    border-bottom: 1rpx dashed #ccc;
+}
+.model-box{
+    text-align: left;
+    background: #fff;
+    box-shadow: 1rpx 1rpx 1rpx 0 #e4dfdf;
+    margin-bottom: 20rpx;
+    
+}
+.title{
+    display: inline-block;
+    padding-left: 10rpx;
+    font-size: 40rpx;
+    color: #333;
+    line-height: 80rpx;
+}
+.title-sm{
+    display: block;
+    padding-left: 10rpx;
+    font-size: 30rpx;
+    color: #333;
+    line-height: 40rpx;
+}
+/* .van-button--primary{
+    background-color:  #00D8A0 !important;
+} */
+.center{
+    text-align: center
+}
+

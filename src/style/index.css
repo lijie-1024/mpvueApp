@@ -1,0 +1,42 @@
+.calendar{
+    background-color: #e7f8f2;
+    padding-top: 10px;
+}
+.header {
+    font-size: large; /*修改了标题文字和按钮的大小*/
+    color: #00D8A0;   /*修改了标题文字和按钮的颜色*/
+
+}
+.board {
+    background-color: #fff;
+}
+.news{
+    height: 200rpx;
+    text-align: center;
+}
+.task{
+    text-indent: 2em;
+    padding: 10rpx;
+}
+.title-sm{
+    margin: 10rpx;
+    border-bottom: 1rpx dashed #ccc;
+}
+.card{
+    padding: 20rpx
+}
+.task-box{
+    position: relative;
+}
+.delete{
+    position: absolute;
+    top: 0;
+    right: 30rpx;
+}
+.btn-box{
+    padding: 20rpx 0 10rpx;
+}
+.weather-box{
+    /* background: #ecfae1 */
+    background: #fcfffd
+}

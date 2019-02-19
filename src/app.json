@@ -1,0 +1,69 @@
+{
+  "pages": [
+    "pages/index/main",
+    "pages/time/main",
+    "pages/photo/main",
+    "pages/game/main",
+    "pages/note/main"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "实用小程序",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "color": "#999",
+    "backgroundColor": "#fafafa",
+    "selectedColor": "#333",
+    "borderStyle": "white",
+    "list": [
+      {
+        "text": "首页",
+        "pagePath": "pages/index/main",
+        "iconPath": "static/tabs/home1.png",
+        "selectedIconPath": "static/tabs/heart.png"
+      },
+      {
+        "text": "时间",
+        "pagePath": "pages/time/main",
+        "iconPath": "static/tabs/time.png",
+        "selectedIconPath": "static/tabs/heart.png"
+      },
+      {
+        "text": "便签",
+        "pagePath": "pages/note/main",
+        "iconPath": "static/tabs/log.png",
+        "selectedIconPath": "static/tabs/heart.png"
+      },
+      {
+        "text": "相册",
+        "pagePath": "pages/photo/main",
+        "iconPath": "static/tabs/photo.png",
+        "selectedIconPath": "static/tabs/heart.png"
+      },
+      {
+        "text": "游戏",
+        "pagePath": "pages/game/main",
+        "iconPath": "static/tabs/game.png",
+        "selectedIconPath": "static/tabs/heart.png"
+      }
+    ],
+    "position": "bottom"
+  },
+  "permission": {
+    "scope.userLocation": {
+      "desc": "根据用户当前位置获取实时天气信息"
+    }
+  },
+  "plugins": {
+    "weather": {
+      "version": "1.1.0",
+      "provider": "wx6578a11b90205be3"
+    },
+    "calendar": {
+      "version": "1.1.3",
+      "provider": "wx92c68dae5a8bb046"
+  }
+  }
+}
